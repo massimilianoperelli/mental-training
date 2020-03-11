@@ -1,0 +1,51 @@
+p {
+  font-family: Lato;
+}
+
+.full-width { 
+  width: 100%;
+} /*ocupar toda linha*/
+
+.b-red {
+  background-color: red;
+} /*fundo em vermelho*/
+
+.b-green {
+  background-color: green;
+} /*fundo em verde*/
+
+
+.b-blue {
+  background-color: blue;
+} /*fundo em azul*/
+
+.b-yellow {
+  background-color: yellow;
+} /*fundo em amarelo*/
+
+.b-violet {
+  background-color: blueviolet;
+} /*fundo em violeta*/
+
+.b-white {
+  background-color: white;
+} /*fundo em violeta*/
+
+.b-black {
+  background-color: black;
+} /*fundo em violeta*/
+.c-height {
+  height: 600px;
+} /*altura em 500px.*/
+
+.a-height {
+  height: 100px;
+} /*// para colocar altura minima, para ver a div pintada.*/
+
+.b-height {
+  height: 100%;
+}
+
+html,body {
+  height: 100%
+}

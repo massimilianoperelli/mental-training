@@ -1,4 +1,65 @@
-<hello name="{{ name }}"></hello>
-<p>
-  Start editing to see some magic happen :)
-</p>
+<!-- <div fxLayout = "row"> 
+  <button fxFlex = "50%"> Teste </button>
+  <input fxFlex = "200px" placeholder="Nome">
+</div> -->
+
+<!-- <div fxLayout = "row" fxLayoutGap = "10px" class="c-height"> 
+  <div fxFlex = "50%" class="a-height b-red"></div> 
+  <div fxFlex = "50px" class="a-height b-blue"></div>
+  <div fxFlex = "100px" class="a-height b-green"></div>
+</div> -->
+
+<!-- <div fxLayout = "column" class="c-height" fxLayoutAlign = "space-around end"> 
+  <div fxFlex = "50%" class="a-height b-red full-width"></div> 
+  <div fxFlex = "50px" class="a-height b-blue"></div>
+  <div fxFlex = "100px" class="a-height b-green"></div>
+</div> -->
+
+<!-- class="a-height" -->
+<div fxLayout="row" style="height: 100%;">
+
+	<!-- <div fxFlex="50%" class="b-violet"></div> -->
+
+  <div fxLayout="column" class="full-width">
+
+      <div fxFlex="100%">
+
+        <div fxLayout="row" class="b-height">
+
+          <!-- <div fxFlex="100%" class="b-black"></div> -->
+          <div fxFlex="100%" class="{{currentClass}}" fxLayout="row" fxLayoutAlign="center center" (click)="onStop()">
+            <button *ngIf="!isStarted" style="width: 300px; height: 300px;" (click)="onStart($event)">GO!</button>
+          </div>
+          <!-- <div fxFlex="100%" class="b-black"></div> -->
+
+        </div>
+        
+      </div>
+
+      <!-- <div fxFlex="50%"> 
+
+        <div fxLayout="row" class="b-height">
+
+          <div fxFlex="100%" class="b-yellow"></div>
+          <div fxFlex="100%" class="b-black"></div>
+          <div fxFlex="100%" class="b-green"></div>
+
+        </div>
+
+      </div>
+
+      <div fxFlex="50%"> 
+
+        <div fxLayout="row" class="b-height">
+
+          <div fxFlex="100%" class="b-black"></div>
+          <div fxFlex="100%" class="b-blue"></div>
+          <div fxFlex="100%" class="b-black"></div>
+
+        </div>
+
+      </div> -->
+
+  </div>
+  
+</div>
