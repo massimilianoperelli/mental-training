@@ -29,21 +29,22 @@ export class AppComponent {
   }
 
   private pickNextColor() {
-    const nextIndex = Math.floor(Math.random() * (3 - 0) ) + 0;
+    let nextIndex = Math.floor(Math.random()*(4-1+1)+ 1);
+    // const nextIndex = Math.floor(Math.random() * (3 - 0) ) + 0;
     switch (nextIndex) {
-      case 0: {
+      case 1: {
         this.currentClass = 'b-red';
         break;
       }
-      case 1: {
+      case 2: {
         this.currentClass = 'b-blue';
         break;
       }
-      case 2: {
+      case 3: {
         this.currentClass = 'b-yellow';
         break;
       }
-      case 3: {
+      case 4: {
         this.currentClass = 'b-green';
         break;
       }
